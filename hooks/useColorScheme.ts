@@ -9,3 +9,4 @@ import {
 export function useColorScheme(): NonNullable<ColorSchemeName> {
   return _useColorScheme() as NonNullable<ColorSchemeName>;
 }
+
